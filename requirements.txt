@@ -1,0 +1,15 @@
+# Core dependencies
+rich>=13.0.0
+pydantic>=2.0.0
+pyfiglet>=0.8.post1
+
+# Security and analysis
+…# Version constraints rationale:
+# - rich>=13.0.0: Required for advanced console formatting and progress bars
+# - pydantic>=2.0.0: Needed for robust data validation in findings/models
+# - pyfiglet>=0.8.post1: For ASCII art banners (optional but enhances UX)
+#
+# Note: This tool intentionally has minimal dependencies to:
+# 1. Reduce attack surface
+# 2. Ensure portability across environments
+# 3. Avoid dependency conflicts in security tooling contexts
